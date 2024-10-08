@@ -47,7 +47,7 @@ module Universum.Container.Class
 
 import Data.Coerce (Coercible, coerce)
 import Data.Kind (Type)
-import Prelude hiding (all, and, any, concatMap, elem, foldMap, foldl, foldr, mapM_, notElem, null,
+import Prelude hiding (all, and, any, concatMap, elem, foldMap, foldl, foldl', foldr, mapM_, notElem, null,
                 or, print, product, sequence_, sum)
 
 import Universum.Applicative (Alternative (..), Const, ZipList (..), pass)
